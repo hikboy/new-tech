@@ -1,0 +1,44 @@
+
+* terms
+
+endpoint
+
+initiator endpoint (requester)
+
+target endpoint (completer)
+
+switch 
+
+bridge
+
+root complex 
+
+PCIe port
+
+PCIe link
+
+hierarchy
+
+serial
+
+lane
+
+switch-based
+
+packet-based
+
+xN (x1, x2, x4, x8, x16, x32)
+
+width and frequency are negotiated, during hardware initialization
+
+
+2.5G bits/s 5GHz 8GHz
+
+
+hierarchy domian 
+    a single end point 
+    or a sub-hierarchy containing one or more switches and endpoints
+
+legacy endpoint
+
+low-voltage differential signals
