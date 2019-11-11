@@ -42,3 +42,42 @@ hierarchy domian
 legacy endpoint
 
 low-voltage differential signals
+
+have up to eight logical functions
+
+Each endpoint is assigned a device id, which consist of:
+    a bus number
+    device number
+    function number
+
+Message Signaled Interrupts (MSI)
+
+* architecture
+
+    A PCIe system may be structured into five logical layers,
+
+        configuration/OS layer
+
+        software layer
+
+        transaction layer 
+
+        data link layer
+
+        physical layer
+
+    The PCIe specification defines the architecture of PCIe devices in terms of three logi-
+cal layers, which are the last three layers from those previously listed.
+
+There are four categories of PCIe transactions: memory, I/O, configuration, and message.
+The first three categories were also supported by the previous PCI and PCI-X buses.
+
+Message transactions are specific to the PCIe bus.  
+Message transactions, also called messages, are used for interrupt signaling, power manage-ment, or error signaling.
+
+On the other hand, in the PCIe architecture there are two types of transactions.
+    non-posted transactions
+    posted transactions
+
+
+
