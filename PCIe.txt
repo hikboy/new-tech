@@ -1,3 +1,12 @@
+* PCIE
+
+First Generation : ISA, EISA, VESA, Micro Channel buses
+
+Second Generation : PCI, AGP, PCI-X
+
+Third GEneration : PCIE
+
+
 
 * terms
 
@@ -52,6 +61,23 @@ Each endpoint is assigned a device id, which consist of:
 
 Message Signaled Interrupts (MSI)
 
+A PCI or PCI-X function, which may have a configuration space of 256B
+A PCIe function has a configuration space extended to 4 KB.  
+PCIe configuration space is 256 MB
+
+* PCIe versions
+
+    2003 1.0a 2.5GHz 250MB/s
+
+    2005 1.1 
+    
+    2007 2.0 2.1 5GHz 500MB/s
+
+    2010 3.0 8GHz 8GT/s or 985MB/s  added 128b/130b
+
+    2017 4.0     16GT/s or 1.97 GB/s
+
+
 * architecture
 
     A PCIe system may be structured into five logical layers,
@@ -65,6 +91,9 @@ Message Signaled Interrupts (MSI)
         data link layer
 
         physical layer
+            logical 
+            electrical
+
 
     The PCIe specification defines the architecture of PCIe devices in terms of three logi-
 cal layers, which are the last three layers from those previously listed.
